@@ -53,5 +53,16 @@ Gere a key do projeto Laravel
 php artisan key:generate
 ```
 
+Saia do Bash e Reabra para atualizar os dados do .env
+```sh
+exit 
+docker-compose exec app bash
+```
+
+Execute as migrations
+```sh
+php artisan migrate
+```
+
 Acesse o projeto
 [http://localhost:8989]
